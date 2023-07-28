@@ -42,7 +42,8 @@
         $valorReajustado = reajuste($preco, $reajuste);
 
         echo "<div id='result'><h5>Resultado do Reajuste</h5></div>";
-        echo "<span>O produto que custava R$".$preco.", com ".$reajuste."% de aumento, passa a custar R$".$valorReajustado."<span>";
+        echo "<span>O produto que custava <b>R$".$preco."</b>, com <b>".$reajuste."%</b> de aumento, passa a custar <b>R$".
+                    $valorReajustado."</b><span>";
     }
 ?>
  </form>
